@@ -21,7 +21,7 @@ public class RESTEasyPatchClient {
 		
 		try {
 			ClientRequest request = new ClientRequest(
-					"http://localhost:8086/RESTfulExample/rest/json/applyPatch");
+					"http://localhost:8086/RESTEasyExample/rest/json/applyPatch");
 			request.accept("application/json");
 			String input = "{\"op\":\"replace\",\"path\":\"title\",\"value\":\"Pink Floyd\"}";
 			request.body("application/json", input);
