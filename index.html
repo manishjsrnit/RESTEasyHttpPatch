@@ -38,11 +38,6 @@
 
 <p>So we can see here that only the title property of the System objects needs to be updated with the mentioned value. So only this property is sent in the Json patch. For multiple properties, array of Json objects, combined as a single object can be sent to Service class. e.g. - </p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
 <pre><code>[ {"op" : "replace" , "path" : "/title" , "value" : "new value" }, 
    "op" : "remove" , "path" : "/name"} ]
 </code></pre>
